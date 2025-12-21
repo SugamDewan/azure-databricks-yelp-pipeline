@@ -65,7 +65,7 @@ The pipeline ingests raw semi-structured data, cleanses and enforces schema (Sil
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/yourusername/azure-databricks-yelp-pipeline.git](https://github.com/yourusername/azure-databricks-yelp-pipeline.git)
+    git clone https://github.com/SugamDewan/azure-databricks-yelp-pipeline.git
     ```
 2.  **Upload Notebook:** Import `Yelp_ETL_Pipeline.ipynb` into your Databricks Workspace.
 3.  **Setup Storage:**
