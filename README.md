@@ -57,11 +57,11 @@ The Result: Enabled the modern abfss driver, significantly improving file-level 
 📊 Project Visuals
 Market Density Analysis (Gold Layer)
 Identifying primary market clusters for the client. Based on the proxy data, Philadelphia emerged as the hub with the highest density.
-(gold_layer_viz.png)
+![Market Density Analysis](assets/gold_layer_viz.png)
 
 SQL Validation (Data Quality)
 Verifying pipeline outputs using Spark SQL to ensure data readiness for business analysts.
-(sql_verification.png)
+![SQL Validation](assets/sql_verification.png)
 
 💻 Deployment & Usage
 Clone: git clone https://github.com/SugamDewan/azure-databricks-yelp-pipeline.git
@@ -75,6 +75,8 @@ Authentication: Update the sanitized credentials section with your specific stor
 👤 Author
 Sugam Dewan Data Engineer | Cloud Specialist View My Portfolio | Connect on LinkedIn
     * Upload the `yelp_academic_dataset_business.json` file.
+
 4.  **Configure Credentials:**
     * *Note:* The notebook has been sanitized for security. You must enter your own Storage Account Key or mount the drive using Azure Key Vault (recommended for production).
+
 5.  **Run Pipeline:** Execute the cells sequentially to build Bronze, Silver, and Gold layers.
